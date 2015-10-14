@@ -1,0 +1,96 @@
+#header {
+        background-color: #FDD7E4 ;
+        color:black;
+        text-align:left ;
+        padding:10px;
+	font-size: 15px ;
+	font-family: 'Homemade Apple', cursive;
+}
+
+#header2 {
+	background-color: white ;
+	padding: 20px ;
+}
+
+
+
+.button1 {
+   display:block;
+  width:100px;
+  height:90px;
+  border-radius:45px;
+  font-size:22px;
+  color: black   ;
+  line-height:70px;
+  position:absolute;
+  top: 25px;
+  left:700px ;
+  text-align:center;
+  background: #E5E4E2
+}
+
+.button2 {
+  display:block;
+  width:100px;
+  height:90px;
+  border-radius:45px;
+  font-size:22px;
+  color: black   ;
+  line-height:70px;
+  position:absolute;
+  top: 25px;
+  left:800px ;
+  text-align:center;
+  background: #E5E4E2 ;
+}
+
+.button3 {
+  display:block;
+  width:100px;
+  height:90px;
+  border-radius:45px;
+  font-size:22px;
+  color: black   ;
+  line-height:70px;
+  position:absolute;
+  top: 25px;
+  left:900px ;
+  text-align:center;
+  background: #E5E4E2 ;
+}
+
+.button4 {
+  display:block;
+  width:100px;
+  height:90px;
+  border-radius:45px;
+  font-size:22px;
+  color: black   ;
+  line-height:70px;
+  position:absolute;
+  top: 25px;
+  left:1000px ;
+  text-align:center;
+  background: #E5E4E2 ;
+}
+
+
+.button5 {
+  display:block;
+  width:100px;
+  height:90px;
+  border-radius:45px;
+  font-size:22px;
+  color: black   ;
+  line-height:70px;
+  position:absolute;
+  top: 25px;
+  left:1100px ;
+  text-align:center;
+  background: #E5E4E2 ;
+}
+
+tr td{
+  height: 350px;
+  background-color: #D8BFD8;
+}
