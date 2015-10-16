@@ -12,6 +12,11 @@
 	padding: 20px ;
 }
 
+#header3 {
+	text-align: center ;
+	font-family: 'Cedarville Cursive', cursive;
+
+}
 
 
 .button1 {
@@ -93,4 +98,12 @@
 tr td{
   height: 350px;
   background-color: #D8BFD8;
+}
+
+#paragraph {
+  font-size:22px;
+  color:black;
+   margin-left: auto;
+    margin-right: auto;
+    width: 35em;
 }
