@@ -14,15 +14,14 @@
 
 #header3 {
 	text-align: center ;
-	font-family: 'Cedarville Cursive', cursive;
+	font-family: 'Cedarville Cursive', cursive; 
 
 }
 
-
 .button1 {
    display:block;
-  width:100px;
-  height:90px;
+  width:88px;
+  height:88px;
   border-radius:45px;
   font-size:22px;
   color: black   ;
@@ -36,10 +35,10 @@
 
 .button2 {
   display:block;
-  width:100px;
-  height:90px;
+  width:88px;
+  height:88px;
   border-radius:45px;
-  font-size:22px;
+  font-size:20px;
   color: black   ;
   line-height:70px;
   position:absolute;
@@ -51,8 +50,8 @@
 
 .button3 {
   display:block;
-  width:100px;
-  height:90px;
+  width:88px;
+  height:88px;
   border-radius:45px;
   font-size:22px;
   color: black   ;
@@ -66,8 +65,8 @@
 
 .button4 {
   display:block;
-  width:100px;
-  height:90px;
+  width:88px;
+  height:88px;
   border-radius:45px;
   font-size:22px;
   color: black   ;
@@ -82,8 +81,8 @@
 
 .button5 {
   display:block;
-  width:100px;
-  height:90px;
+  width:88px;
+  height:88px;
   border-radius:45px;
   font-size:22px;
   color: black   ;
