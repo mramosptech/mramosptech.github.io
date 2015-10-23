@@ -116,9 +116,10 @@ tr td{
 }
 
 #paragraph {
-  font-size:22px;
+position:relative;
+float:right;
+font-size:20px;
   color:black;
-   margin-left: auto;
-    margin-right: auto;
-    width: 45em;
-}
+margin-top:-450px;
+  margin-right: auto;
+    width: 40em;
