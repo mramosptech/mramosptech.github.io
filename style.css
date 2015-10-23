@@ -128,5 +128,10 @@ margin-top:-450px;
 #p5 {
  border-width:5px;	
     border-style:dotted;
-}
+  float:left;
+font-size:20px;
+  color:black;
+margin-top:-450px;
+  margin-right: auto;
+    width: 40em;
 }
