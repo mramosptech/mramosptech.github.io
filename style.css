@@ -14,9 +14,19 @@
 
 #header3 {
 	text-align: center ;
-	font-family: 'Cedarville Cursive', cursive;
+	font-family: 'Cedarville Cursive', cursive; 
 
 }
+
+#header4 {
+	font-family: 'Poiret One', cursive;
+}
+
+#header6 {
+	background-color: white ;
+	padding: 20px ;
+}
+
 
 .button1 {
    display:block;
@@ -94,15 +104,75 @@
   background: #E5E4E2 ;
 }
 
+.button6 {
+  display:block;
+  width:88px;
+  height:88px;
+  border-radius:45px;
+  font-size:22px;
+  color: black   ;
+  line-height:70px;
+  position:absolute;
+  top: 25px;
+  left:1200px ;
+  text-align:center;
+  background: #E5E4E2 ;
+}
+
 tr td{
   height: 350px;
   background-color: #D8BFD8;
 }
 
 #paragraph {
-  font-size:22px;
+position:relative;
+float:right;
+font-size:20px;
   color:black;
-   margin-left: auto;
-    margin-right: auto;
-    width: 45em;
+margin-top:-450px;
+  margin-right: auto;
+    width: 40em;
 }
+
+#paragraph4 {
+position:relative;
+float:right;
+font-size:20px;
+  color:black;
+margin-top:-300px;
+  margin-right: auto;
+    width: 40em;
+}
+
+
+#paragraph8 {
+position:relative;
+float:right;
+font-size:20px;
+  color:black;
+margin-top:-220px;
+  margin-right: auto;
+    width: 40em;
+}
+
+#para10 {
+position:relative;
+float:right;
+font-size:20px;
+  color:black;
+margin-top:-200px;
+  margin-right: auto;
+    width: 40em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
