@@ -94,6 +94,22 @@
   background: #E5E4E2 ;
 }
 
+.button6 {
+  display:block;
+  width:88px;
+  height:88px;
+  border-radius:45px;
+  font-size:22px;
+  color: black   ;
+  line-height:70px;
+  position:absolute;
+  top: 25px;
+  left:1200px ;
+  text-align:center;
+  background: #E5E4E2 ;
+}
+
+
 tr td{
   height: 350px;
   background-color: #D8BFD8;
