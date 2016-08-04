@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title> Maribel's Digital Porfolio </title>
+
+<link rel="stylesheet" type="text/css" href="style.css"
+
+</head>
+<body>
+
+
+<div id="header">
+   <h1> Maribel Ramos </h1>
+   <link href='https://fonts.googleapis.com/css?family=Homemade+Apple' rel='stylesheet' type='text/css'>
+</div>
+
+
+	
+<a class="button1" href="index2.html" style="text-decoration: none"> Home </a>
+<a class="button2" href="aboutme.html" style="text-decoration: none"> About Me </a>
+<a class="button3" href="education.html" style="text-decoration: none"> Education </a>
+<a class="button4" href="contact.html" style="text-decoration: none"> Contact  </a>
+<a class="button5" href="projects.html" style="text-decoration: none"> Projects </a>
+<a class="button6" href="resume.html" style="text-decoration: none"> Resume </a>
+
+
+<div id="header2">
+</div>
+
+<div id="header3">
+	<h1> About Me </h1>
+	<link href='https://fonts.googleapis.com/css?family=Cedarville+Cursive' rel='stylesheet' type='text/css'>
+</div>
+
+<script type="text/javascript">
+var i = 0;
+var path = new Array();
+var captions = new Array();
+// LIST OF SLIDES
+path[0] = "Images/group.png";
+path[1] = "Images/comp.png";
+path[2] = "Images/team.png";
+path[3] = "Images/BNMF.jpg";
+path[4] = "Images/ftc3.jpg";
+path[5] = "Images/Slavery.png";
+path[6] = "Images/Slavery2.png";
+path[7] = "Images/armory.jpg";
+
+
+
+var caption = new Array();
+caption[0] = "Community Day 2014";
+caption[1] = "Robotics Team at Competition in January 2015";
+caption[2] = "Robotics Team at Competition in January 2015";
+caption[3] = "Barnes and Noble Mini Maker Faire";
+caption[4] = "Robotics Team at Competition in January 2016 ";
+caption[5] = "Survivor Communication Group";
+caption[6] = "Slavery Awareness Fair 2016 ";
+caption[7] = "Newburgh Armory Board Meeting ";
+
+function swapImage()
+{
+var el = document.getElementById("mydiv");
+el.innerHTML=caption[i];
+var img= document.getElementById("slide");
+img.src= path[i];
+   if(i < path.length - 1) i++; else i = 0;
+   setTimeout("swapImage()",6000);
+alert(document.body.innerHTML);
+
+}
+</script>
+</head>
+
+<body>
+
+
+<body onLoad="swapImage()">
+<img name="slide" id="slide" position:relative height=400 width=500 src="law1.jpg"/ >
+<div id ="mydiv"></div>
+
+
+
+<div id="paragraph">
+  <p> My name is Maribel Ramos and I was born in Newburgh, New York. I am currently a student at Suny Orange and student at <a href="http://www.newburghschools.org/schools/nfa/ptech.php"> Newburgh Free Academy North Campus.</a> I am also a year 3 student at Excelsior Academy as well. Excelsior Academy is a  P-TECH 9-14 school model that will give me an Associates Degree in Applied Science in Cyber Security or Networking and will help me begin a career. I have been at Excelsior Academy for 3 years now and I have learned and interacted with multiple people that I never would have met anywhere else. I have lead large projects and have been apart of groups that has allowed me to further my learning and work closely with my peers. </p>
+</center>
+<center>
+<p> Coding is one of the few things I never saw myself doing three years ago when I started my Computer Science courses freshmen year. But 3 years later , here I am with some knowledge of different types of coding such as HTML, CSS and Javascript. I have also been apart of Robotics since my first year at Excelsior and took over the secretary role my second year. Some of my interests include everyday reading, volunteering my time , and playing tennis. 
+
+</div></p>
+
+
+
+</body>
+</html>
+
+
+
+
+

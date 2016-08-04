@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title> Education  </title>
+
+<link rel="stylesheet" type="text/css" href="style.css"
+
+</head>
+<body>
+
+
+<div id="header">
+   <h1> Maribel Ramos </h1>
+   <link href='https://fonts.googleapis.com/css?family=Homemade+Apple' rel='stylesheet' type='text/css'>
+</div>
+
+
+<a class="button1" href="index.html" style="text-decoration: none"> Home </a>
+<a class="button2" href="aboutme.html" style="text-decoration: none"> About Me </a>
+<a class="button3" href="education.html" style="text-decoration: none"> Education </a>
+<a class="button4" href="contact.html" style="text-decoration: none"> Contact </a>
+<a class="button5" href="projects.html" style="text-decoration: none"> Projects </a>
+<a class="button6" href="resume.html" style="text-decoration: none"> Resume </a>
+
+<div id="header2">
+</div>
+
+<div id="header3">
+	<h1> Education </h1>
+	<link href='https://fonts.googleapis.com/css?family=Cedarville+Cursive' rel='stylesheet' type='text/css'>
+</div>
+
+<div id="header2">
+</div>
+
+<div id="header2">
+</div>
+
+<script type="text/javascript">
+var i = 0;
+var path = new Array();
+var captions = new Array();
+// LIST OF SLIDES
+path[0] = "Images/camp.png";
+
+var caption = new Array();
+caption[0] = "SUNY Orange Newburgh Campus";
+
+function swapImage()
+{
+var el = document.getElementById("mydiv");
+el.innerHTML=caption[i];
+var img= document.getElementById("slide");
+img.src= path[i];
+   if(i < path.length - 1) i++; else i = 0;
+   setTimeout("swapImage()",5000);
+alert(document.body.innerHTML);
+}
+</script>
+</head>
+
+<body>
+
+
+<body onLoad="swapImage()">
+<img name="slide" id="slide" position:relative height=400 width=500 src="law1.jpg"/ >
+<div id ="mydiv"></div>
+
+
+
+<div id="paragraph">
+
+<p> <center> I attend school at Newburgh Free Academy North Campus and I'm currently a junior and a year 3 student at Excelsior Academy. I am also a student at SUNY Orange Community College , taking college courses since my sophmore year in highschool.
+The college is located at the eastern end of Orange County in Newburgh, NY . </p>
+
+</div>
+</body>
+</html>
+

@@ -1,0 +1,191 @@
+#header {
+        background-color: #FDD7E4 ;
+        color:black;
+        text-align:left ;
+        padding:10px;
+	font-size: 15px ;
+	font-family: 'Homemade Apple', cursive;
+}
+
+#header2 {
+	background-color: white ;
+	padding: 20px ;
+}
+
+#header3 {
+	text-align: center ;
+	font-family: 'Cedarville Cursive', cursive; 
+
+}
+
+#header4 {
+	font-family: 'Poiret One', cursive;
+}
+
+#header6 {
+	background-color: white ;
+	padding: 20px ;
+}
+
+
+.button1 {
+   display:block;
+  width:88px;
+  height:88px;
+  border-radius:45px;
+  font-size:22px;
+  color: black   ;
+  line-height:70px;
+  position:absolute;
+  top: 25px;
+  left:700px ;
+  text-align:center;
+  background: #E5E4E2
+}
+
+.button2 {
+  display:block;
+  width:88px;
+  height:88px;
+  border-radius:45px;
+  font-size:20px;
+  color: black   ;
+  line-height:70px;
+  position:absolute;
+  top: 25px;
+  left:800px ;
+  text-align:center;
+  background: #E5E4E2 ;
+}
+
+.button3 {
+  display:block;
+  width:88px;
+  height:88px;
+  border-radius:45px;
+  font-size:22px;
+  color: black   ;
+  line-height:70px;
+  position:absolute;
+  top: 25px;
+  left:900px ;
+  text-align:center;
+  background: #E5E4E2 ;
+}
+
+.button4 {
+  display:block;
+  width:88px;
+  height:88px;
+  border-radius:45px;
+  font-size:22px;
+  color: black   ;
+  line-height:70px;
+  position:absolute;
+  top: 25px;
+  left:1000px ;
+  text-align:center;
+  background: #E5E4E2 ;
+}
+
+
+.button5 {
+  display:block;
+  width:88px;
+  height:88px;
+  border-radius:45px;
+  font-size:22px;
+  color: black   ;
+  line-height:70px;
+  position:absolute;
+  top: 25px;
+  left:1100px ;
+  text-align:center;
+  background: #E5E4E2 ;
+}
+
+.button6 {
+  display:block;
+  width:88px;
+  height:88px;
+  border-radius:45px;
+  font-size:22px;
+  color: black   ;
+  line-height:70px;
+  position:absolute;
+  top: 25px;
+  left:1200px ;
+  text-align:center;
+  background: #E5E4E2 ;
+}
+
+tr td{
+  height: 350px;
+  background-color: #D8BFD8;
+}
+
+#paragraph {
+position:relative;
+float:right;
+font-size:20px;
+  color:black;
+margin-top:-450px;
+  margin-right: auto;
+    width: 40em;
+}
+
+#paragraph4 {
+position:relative;
+float:right;
+font-size:20px;
+  color:black;
+margin-top:-300px;
+  margin-right: auto;
+    width: 40em;
+}
+
+
+#paragraph8 {
+position:relative;
+float:right;
+font-size:20px;
+  color:black;
+margin-top:-220px;
+  margin-right: auto;
+    width: 40em;
+}
+
+#para10 {
+position:relative;
+float:right;
+font-size:20px;
+  color:black;
+margin-top:-200px;
+  margin-right: auto;
+    width: 40em;
+}
+
+
+#para11 {
+position:relative;
+float:right;
+font-size:20px;
+  color:black;
+margin-top:-220px;
+  margin-right: auto;
+    width: 40em;
+
+}
+
+
+#para12 {
+position:relative;
+float:right;
+font-size:20px;
+  color:black;
+margin-top:-210px;
+  margin-right: auto;
+    width: 40em;
+
+}
+
